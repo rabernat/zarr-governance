@@ -86,9 +86,8 @@ Members of the steering council also have the "owner" role within the [zarr-deve
 and are ultimately responsible for managing the [zarr-developers](https://github.com/zarr-developers) GitHub account, the [@zarr_dev](https://twitter.com/zarr_dev)
 twitter account, the [Zarr website](https://zarr-developers.github.io), and other similar Zarr-owned resources.
 
-The steering council is currently fixed in size to five members. This number may be increased in
-the future, but will always be an odd number to ensure a simple majority vote outcome
-is always possible. The initial steering council of Zarr consists of
+The steering council currently contains five members. This number may be increased in
+the future. The current steering council consists of
 
 * [Ryan Abernathey](https://github.com/rabernat)
 
@@ -100,7 +99,7 @@ is always possible. The initial steering council of Zarr consists of
 
 * [Norman Rzepka](https://github.com/normanrz)
 
-The SC membership is revisited every January. SC members who do
+SC members who do
 not actively engage with the SC duties are expected to resign. New members are
 added by nomination by a core developer. Nominees should have demonstrated
 long-term, continued commitment to the project and its mission and values. A
