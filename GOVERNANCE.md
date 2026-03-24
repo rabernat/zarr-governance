@@ -17,8 +17,8 @@ The Zarr ecosystem consists of the following entities:
 1. **The Zarr Project** — The umbrella entity fiscally sponsored by NumFocus.
    NumFocus-sponsored projects are required to have a formal governance process
    and may receive financial donations via the NumFocus 501(c)(3).
-2. **The Zarr Specification** — A collection of documents defining the on-disk
-   Zarr format.
+2. **The Zarr Specification** — A document defining the Zarr format for
+   N-dimensional typed arrays.
 3. **Affiliated Software Projects** — Individual software projects (including
    the specification itself, as well as implementations, tools, and conventions
    projects) which are part of the Zarr Project. These projects are eligible
@@ -76,9 +76,10 @@ The ZSC's responsibilities are:
 3. Manage the list of Affiliated Software Projects, including decisions about
    new affiliations and removal of affiliations.
 4. Manage responsibilities which do not belong to a specific Affiliated
-   Software Project (e.g. the Zarr website, the zarr-developers GitHub
-   organization, social media accounts, and similar Zarr-owned resources) in
-   order to ensure smooth operations and effective collaboration.
+   Software Project (e.g., at the time of this writing, the Zarr website; as
+   well as the zarr-developers GitHub organization, social media accounts, and
+   similar Zarr-owned resources) in order to ensure smooth operations and
+   effective collaboration.
 5. Serve as the final escalation point for disputes that cannot be resolved
    within an individual Affiliated Software Project or the Spec Committee.
 
@@ -241,7 +242,10 @@ operations. The following principles guide how governance maps to GitHub:
   radius of any potential security threat.
 * **Centralized organization**: All Affiliated Software Projects live within
   the `zarr-developers` GitHub organization, providing a central entry point
-  and allowing projects to share resources.
+  and allowing projects to share resources. Non-affiliated projects should not
+  have repositories in the `zarr-developers` organization; every repository in
+  the org should either belong to an affiliated project or default to ZSC
+  oversight.
 * **Project-level autonomy**: Each Affiliated Software Project manages its own
   repos and GitHub team membership. Ownership of the GitHub org as a whole
   (including creation of new repos and teams) is managed by the ZSC.
